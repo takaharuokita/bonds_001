@@ -1,0 +1,15 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.07 20.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e84c4c;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>arrow_red</title>
+  <g>
+    <path class="cls-1" d="M28.49,8.73l0,0L20.34.59a2,2,0,0,0-2.83,2.82l6.73,6.73-6.73,6.73a2,2,0,0,0,2.83,2.83l8.13-8.13h0a2,2,0,0,0,.58-1.42A2,2,0,0,0,28.49,8.73Z"/>
+    <path class="cls-1" d="M14,8.14H2a2,2,0,0,0,0,4H14a2,2,0,0,0,0-4Z"/>
+  </g>
+</svg>
