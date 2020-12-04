@@ -2905,5 +2905,5 @@ video,
 *,
  :after,
  :before {
-    font-family: "kozL";
+    font-family: "kozL"!important;
 }
