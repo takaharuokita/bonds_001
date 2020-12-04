@@ -7,11 +7,6 @@
     outline: none;
 }
 
-@font-face {
-    font-family: "kozL";
-    src: url(KozGoPr6N-Light.otf);
-}
-
 html,
 body,
 main,
@@ -86,7 +81,9 @@ video,
 *,
  :after,
  :before {
-    font-family: "kozL"!important;
+    font-family: vdl-v7marugothic, sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 img {
