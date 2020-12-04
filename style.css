@@ -1,12 +1,3 @@
-/*
-Theme Name: Anka-ichikawa
-Theme URI: https://anka-ichikawa.com/
-Description: Anka-ichikawa
-Version: 1.0
-Author: Anka-ichikawa
-Author URI: https://anka-ichikawa.com/
-*/
-
 @charset "UTF-8";
 * {
     margin: 0;
@@ -27,7 +18,6 @@ html {
 }
 
 body {
-    font-family: '中ゴシックBBB', '游ゴシック体', '游ゴシック', "Yu Gothic", 'YuGothic', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', "メイリオ", sans-serif;
     color: #333;
     font-size: 1.8rem;
     line-height: 2;
@@ -490,6 +480,7 @@ ul .wide_1_3 {
     color: #fff;
     font-size: 4.0rem;
     border-radius: 20px;
+    text-shadow: 2px 1px 0px #000000;
 }
 
 .image_header div span {
@@ -632,7 +623,7 @@ ul .wide_1_3 {
 
 .related .category,
 .post_title .category li {
-    background: #e84c4c;
+    background: #33ac1b;
     color: #fff;
     display: inline-block;
     font-size: 1.4rem;
@@ -653,7 +644,7 @@ ul .wide_1_3 {
     color: #333;
     font-size: 1.8rem;
     vertical-align: middle;
-    color: #e84c4c;
+    color: #33ac1b;
 }
 
 .post_title .title {
@@ -707,7 +698,7 @@ ul .wide_1_3 {
     vertical-align: text-top;
     text-indent: -2.0em;
     padding-left: 2.0em;
-    color: #e84c4c;
+    color: #33ac1b;
 }
 
 .post_body p,
@@ -894,12 +885,12 @@ ul .wide_1_3 {
 }
 
 .use_content div.flex ul li .no {
-    color: #e84c4c;
+    color: #33ac1b;
 }
 
 .use_content div.flex ul li a,
 .use_content div.flex ul li a:visited {
-    color: #e84c4c;
+    color: #33ac1b;
 }
 
 .tab {
@@ -922,7 +913,7 @@ ul .wide_1_3 {
 .term-9 .tab li .info,
 .term-10 .tab li .event,
 .term-11 .tab li .event_report {
-    border-bottom: 1px solid #e84c4c;
+    border-bottom: 1px solid #33ac1b;
 }
 
 .link_fade,
@@ -1185,7 +1176,7 @@ ul .wide_1_3 {
     display: block;
     width: 36px;
     height: 36px;
-    border: 3px solid #e84c4c;
+    border: 3px solid #33ac1b;
     border-radius: 50%;
     background: no-repeat center center;
     background-size: 30px auto;
@@ -1474,7 +1465,7 @@ ul .wide_1_3 {
 
 .information_list li .category {
     width: 130px;
-    background: #e84c4c;
+    background: #33ac1b;
     color: #fff;
     display: block;
     font-size: 1.4rem;
@@ -1670,7 +1661,7 @@ ul .wide_1_3 {
 }
 
 .tag.stay {
-    background: #e84c4c;
+    background: #33ac1b;
 }
 
 .tag.ask {
@@ -1821,7 +1812,7 @@ footer .copyright {
 .wp-pagenavi a {
     display: inline-block;
     padding: 6px 14px;
-    background: #e84c4c;
+    background: #33ac1b;
     color: #fff;
     margin: 0 3px;
 }
@@ -1829,7 +1820,7 @@ footer .copyright {
 .wp-pagenavi a:hover {
     border: none;
     background: #fbf5f0;
-    color: #e84c4c;
+    color: #33ac1b;
 }
 
 .wp-pagenavi span.current {
@@ -1924,7 +1915,7 @@ ul.myform li span.form {
 }
 
 .submit {
-    background: #e84c4c;
+    background: #33ac1b;
     border-radius: 3px;
     color: #fff;
     font-size: 16px;
@@ -1933,7 +1924,7 @@ ul.myform li span.form {
     margin: 0 auto;
     border: none;
     cursor: pointer;
-    border: 1px solid #e84c4c;
+    border: 1px solid #33ac1b;
     -webkit-transition: 0.2s ease-in-out;
     -moz-transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
@@ -1942,7 +1933,7 @@ ul.myform li span.form {
 
 .submit:hover {
     background: #fff;
-    color: #e84c4c;
+    color: #33ac1b;
 }
 
 .works_category {
@@ -2318,7 +2309,7 @@ ul.myform li span.form {
         font-size: 3.0rem;
     }
     .anchor_link li {
-        width: auto;
+        width: 175px;
     }
     .anchor_link li a {
         font-size: 1.2rem;
@@ -2540,7 +2531,6 @@ ul.myform li span.form {
     .sub_navi li:first-child a {
         min-height: 135px;
     }
-    .sub_navi li:first-child {}
     .sub_navi li:first-child a {
         border-radius: 10px 0 0 0;
     }
@@ -2597,7 +2587,7 @@ ul.myform li span.form {
     }
     .information_list li .category {
         width: 110px;
-        background: #e84c4c;
+        background: #33ac1b;
         font-size: 1.2rem;
         margin: 0 0 8px 0;
         align-items: flex-start;
@@ -2617,6 +2607,8 @@ ul.myform li span.form {
     }
     .information_list li .title {
         padding: 0 0 0 0;
+        font-size: 21px;
+        transform: translateY(10px);
     }
     /* --------------------------------
 
