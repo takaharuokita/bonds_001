@@ -199,6 +199,17 @@ table {
     word-break: break-word;
 }
 
+footer table th {
+    width: 30%;
+    vertical-align: top;
+}
+
+footer table {
+    width: auto;
+    margin: auto;
+    text-align: left;
+}
+
 .left {
     float: left;
 }
@@ -232,7 +243,7 @@ table {
 }
 
 .flex {
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
@@ -260,7 +271,7 @@ table {
 -------------------------------- */
 
 .wide_large {
-    text-align: center;
+    text-align: left;
     padding: 0 60px;
     max-width: 1200px;
     margin: 0 auto;
@@ -284,6 +295,7 @@ table {
 
 .wide_1_2 {
     width: 46.8%;
+    margin: auto;
 }
 
 .wide_1_3 {
@@ -510,7 +522,7 @@ ul .wide_1_3 {
 }
 
 .title {
-    text-align: center;
+    text-align: left;
     font-size: 3.6rem;
 }
 
@@ -1618,8 +1630,8 @@ ul .wide_1_3 {
 }
 
 .floorguide_area .text {
-    width: 450px;
-    padding: 0 0 0 80px;
+    width: 490px;
+    padding: 0px 0 0 60px;
 }
 
 .floorguide_area .text p {
@@ -1837,7 +1849,7 @@ footer h1 img {
 
 footer p {
     text-align: center;
-    margin: 0 0 35px 0;
+    margin: 30px 0 0px 0;
 }
 
 footer .bn {
@@ -2076,7 +2088,7 @@ ul.myform li span.form {
         padding: 0 6.6%;
     }
     .wide_1_2 {
-        width: 100%;
+        width: 100% !important;
     }
     .wide_1_3 {
         width: 100%;
@@ -2131,7 +2143,7 @@ ul.myform li span.form {
 
 -------------------------------- */
     .st_standard {
-        font-size: 3.0rem;
+        font-size: 2.8rem;
         margin-bottom: 25px;
     }
     .st_standard span.sub {
@@ -2187,7 +2199,7 @@ ul.myform li span.form {
         display: none;
     }
     .wide_1_2 table tbody tr th {
-        width: 90px;
+        width: 90px !important;
         display: inline-block;
     }
     .beige {
@@ -2355,8 +2367,17 @@ ul.myform li span.form {
         border-bottom: 1px solid #333;
         padding-bottom: 40px;
     }
+    .floor h3 {
+        font-size: 2.0rem;
+        line-height: 3;
+    }
+    .floor p {
+        font-size: 1.4rem;
+        line-height: 2.0;
+        margin: 0 0 20px;
+    }
     .floor .st {
-        font-size: 3.0rem;
+        font-size: 2.7rem;
         border-top: 1px solid #333;
         padding: 40px 0 30px 0;
     }
@@ -2384,7 +2405,7 @@ ul.myform li span.form {
         width: 240px;
     }
     .use_content .lead .st {
-        font-size: 3.0rem;
+        font-size: 2.7rem;
         margin: 5px 0 20px 0;
     }
     .use_content ul.flex {
@@ -2414,6 +2435,14 @@ ul.myform li span.form {
     }
     .use_content div.flex .wide_1_2:first-child {
         margin: 0 0 40px 0;
+    }
+    .use_content div.flex .wide_1_2>table>tbody>tr>th {
+        width: 45px !important;
+    }
+    .use_content div.flex .wide_1_2>table>tbody>tr>td {
+        padding-left: 2% !important;
+        padding-right: 6% !important;
+        letter-spacing: 1px;
     }
     .tab {
         margin: 0 0 40px 0;
@@ -2821,10 +2850,13 @@ ul.myform li span.form {
         width: 170px;
         margin: 20px 0 0 0;
     }
+    footer table {
+        width: 70%;
+    }
     footer p {
         font-size: 1.2rem;
         text-align: center;
-        margin: 0 0 35px 0;
+        margin: 35px 0 0px 0;
     }
     footer .bn {
         width: 260px;
@@ -2900,6 +2932,66 @@ ul.myform li span.form {
     .submit {
         font-size: 1.6rem;
         width: 100%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .anchor_link li {
+        width: 135px;
+    }
+    .anchor_link li a {
+        font-size: 1.02rem;
+    }
+    .page_lead {
+        font-size: 1.4rem;
+    }
+    .use_content div.flex .wide_1_2>table>tbody>tr>td {
+        font-size: 1.4rem;
+    }
+    .home .st_standard {
+        font-size: 2.8rem;
+    }
+    .title {
+        text-align: left;
+        font-size: 2.8rem;
+    }
+    .wide_1_5 .sst {
+        font-size: 1.2rem;
+    }
+    .wide_1_5 p {
+        font-size: 1.0rem;
+    }
+    .stripe .lead .text p {
+        font-size: 1.6rem;
+    }
+    .feature p {
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
+    .feature .st_standard {
+        font-size: 2.0rem;
+    }
+    .st_standard {
+        font-size: 2.4rem;
+    }
+    .floorguide_area .text p {
+        font-size: 1.4rem;
+    }
+    .floor .st {
+        font-size: 2.4rem;
+    }
+    .wide_1_3 .sst {
+        font-size: 1.6rem;
+    }
+    .wide_1_3 p {
+        font-size: 1.2rem;
+    }
+    .floor h3 {
+        font-size: 1.6rem;
+    }
+    .floor p {
+        font-size: 1.2rem;
+        line-height: 2;
     }
 }
 
